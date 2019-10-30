@@ -20,12 +20,12 @@
       <![CDATA[Test Completed>>>Reports Generated]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23133" started-at="2019-10-30T03:44:03Z" finished-at="2019-10-30T03:44:26Z">
+  <suite name="Default suite" duration-ms="24756" started-at="2019-10-30T04:03:07Z" finished-at="2019-10-30T04:03:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23133" started-at="2019-10-30T03:44:03Z" finished-at="2019-10-30T03:44:26Z">
+    <test name="Default test" duration-ms="24756" started-at="2019-10-30T04:03:07Z" finished-at="2019-10-30T04:03:31Z">
       <class name="com.automation.testcases.LoginToOrangeHRM">
-        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="setUpSuit" is-config="true" duration-ms="843" started-at="2019-10-30T03:44:02Z" finished-at="2019-10-30T03:44:03Z">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="setUpSuit" is-config="true" duration-ms="908" started-at="2019-10-30T04:03:06Z" finished-at="2019-10-30T04:03:07Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test is getting ready]]>
@@ -35,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuit -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="setUp" is-config="true" duration-ms="10434" started-at="2019-10-30T03:44:03Z" finished-at="2019-10-30T03:44:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="setUp" is-config="true" duration-ms="12039" started-at="2019-10-30T04:03:07Z" finished-at="2019-10-30T04:03:19Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to start Browser and Getting application ready]]>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="tearDownMethod" is-config="true" duration-ms="7" started-at="2019-10-30T03:44:13Z" finished-at="2019-10-30T03:44:13Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="tearDownMethod" is-config="true" duration-ms="5" started-at="2019-10-30T04:03:19Z" finished-at="2019-10-30T04:03:19Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +62,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="loginToHRMtestCaseDemo()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="loginToHRMtestCaseDemo" duration-ms="12034" started-at="2019-10-30T03:44:13Z" finished-at="2019-10-30T03:44:25Z">
+        <test-method status="PASS" signature="loginToHRMtestCaseDemo()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="loginToHRMtestCaseDemo" duration-ms="12080" started-at="2019-10-30T04:03:19Z" finished-at="2019-10-30T04:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToHRMtestCaseDemo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="tearDown" is-config="true" duration-ms="626" started-at="2019-10-30T03:44:25Z" finished-at="2019-10-30T03:44:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginToOrangeHRM@604ed9f0]" name="tearDown" is-config="true" duration-ms="602" started-at="2019-10-30T04:03:31Z" finished-at="2019-10-30T04:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

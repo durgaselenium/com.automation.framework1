@@ -10,6 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.automation.utility.BrowserFactory;
 import com.automation.utility.ConfigDataProvider;
@@ -34,18 +35,23 @@ public class BaseClass {
  excel = new ExcelDataProvider();
  config= new ConfigDataProvider();
  
-ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Repots/OrangeHRM_"+Helper.getCurrentDataTime()+".html"));
+ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"./Repots/OrangeHRM_"+Helper.getCurrentDataTime()+".html"));
  report = new ExtentReports();
  report.attachReporter(extent);
    Reporter.log("Setting Done-Test can be started", true);
  }
+ 
+ @Parameters({"browser","urlToBeTested"})
  @BeforeClass
- public void setUp()
+ public void setUp(String browser,String url)
  {
 	Reporter.log("Trying to start Browser and Getting application ready", true);  
- driver = BrowserFactory.startApplication(driver,config.getconfigBrower(),config.getconfigApplicationURL());
+ //driver = BrowserFactory.startApplication(driver,config.getconfigBrower(),config.getconfigApplicationURL());
+ driver = BrowserFactory.startApplication(driver,browser,url);
+ 
     Reporter.log("Browser and Application up and running", true); 
  }
+ 
  
  @AfterClass
  public void tearDown()
